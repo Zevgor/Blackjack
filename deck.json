@@ -1,0 +1,262 @@
+[
+  {
+    "suit": "Hearts",
+    "value": 2,
+    "bjval": 2
+  },
+  {
+    "suit": "Hearts",
+    "value": 3,
+    "bjval": 3
+  },
+  {
+    "suit": "Hearts",
+    "value": 4,
+    "bjval": 4
+  },
+  {
+    "suit": "Hearts",
+    "value": 5,
+    "bjval": 5
+  },
+  {
+    "suit": "Hearts",
+    "value": 6,
+    "bjval": 6
+  },
+  {
+    "suit": "Hearts",
+    "value": 7,
+    "bjval": 7
+  },
+  {
+    "suit": "Hearts",
+    "value": 8,
+    "bjval": 8
+  },
+  {
+    "suit": "Hearts",
+    "value": 9,
+    "bjval": 9
+  },
+  {
+    "suit": "Hearts",
+    "value": 10,
+    "bjval": 10
+  },
+  {
+    "suit": "Hearts",
+    "value": "Jack",
+    "bjval": 10
+  },
+  {
+    "suit": "Hearts",
+    "value": "Queen",
+    "bjval": 10
+  },
+  {
+    "suit": "Hearts",
+    "value": "King",
+    "bjval": 10
+  },
+  {
+    "suit": "Hearts",
+    "value": "Ace",
+    "bjval": 11
+  },
+  {
+    "suit": "Diamonds",
+    "value": 2,
+    "bjval": 2
+  },
+  {
+    "suit": "Diamonds",
+    "value": 3,
+    "bjval": 3
+  },
+  {
+    "suit": "Diamonds",
+    "value": 4,
+    "bjval": 4
+  },
+  {
+    "suit": "Diamonds",
+    "value": 5,
+    "bjval": 5
+  },
+  {
+    "suit": "Diamonds",
+    "value": 6,
+    "bjval": 6
+  },
+  {
+    "suit": "Diamonds",
+    "value": 7,
+    "bjval": 7
+  },
+  {
+    "suit": "Diamonds",
+    "value": 8,
+    "bjval": 8
+  },
+  {
+    "suit": "Diamonds",
+    "value": 9,
+    "bjval": 9
+  },
+  {
+    "suit": "Diamonds",
+    "value": 10,
+    "bjval": 10
+  },
+  {
+    "suit": "Diamonds",
+    "value": "Jack",
+    "bjval": 10
+  },
+  {
+    "suit": "Diamonds",
+    "value": "Queen",
+    "bjval": 10
+  },
+  {
+    "suit": "Diamonds",
+    "value": "King",
+    "bjval": 10
+  },
+  {
+    "suit": "Diamonds",
+    "value": "Ace",
+    "bjval": 11
+  },
+  {
+    "suit": "Clubs",
+    "value": 2,
+    "bjval": 2
+  },
+  {
+    "suit": "Clubs",
+    "value": 3,
+    "bjval": 3
+  },
+  {
+    "suit": "Clubs",
+    "value": 4,
+    "bjval": 4
+  },
+  {
+    "suit": "Clubs",
+    "value": 5,
+    "bjval": 5
+  },
+  {
+    "suit": "Clubs",
+    "value": 6,
+    "bjval": 6
+  },
+  {
+    "suit": "Clubs",
+    "value": 7,
+    "bjval": 7
+  },
+  {
+    "suit": "Clubs",
+    "value": 8,
+    "bjval": 8
+  },
+  {
+    "suit": "Clubs",
+    "value": 9,
+    "bjval": 9
+  },
+  {
+    "suit": "Clubs",
+    "value": 10,
+    "bjval": 10
+  },
+  {
+    "suit": "Clubs",
+    "value": "Jack",
+    "bjval": 10
+  },
+  {
+    "suit": "Clubs",
+    "value": "Queen",
+    "bjval": 10
+  },
+  {
+    "suit": "Clubs",
+    "value": "King",
+    "bjval": 10
+  },
+  {
+    "suit": "Clubs",
+    "value": "Ace",
+    "bjval": 11
+  },
+  {
+    "suit": "Spades",
+    "value": 2,
+    "bjval": 2
+  },
+  {
+    "suit": "Spades",
+    "value": 3,
+    "bjval": 3
+  },
+  {
+    "suit": "Spades",
+    "value": 4,
+    "bjval": 4
+  },
+  {
+    "suit": "Spades",
+    "value": 5,
+    "bjval": 5
+  },
+  {
+    "suit": "Spades",
+    "value": 6,
+    "bjval": 6
+  },
+  {
+    "suit": "Spades",
+    "value": 7,
+    "bjval": 7
+  },
+  {
+    "suit": "Spades",
+    "value": 8,
+    "bjval": 8
+  },
+  {
+    "suit": "Spades",
+    "value": 9,
+    "bjval": 9
+  },
+  {
+    "suit": "Spades",
+    "value": 10,
+    "bjval": 10
+  },
+  {
+    "suit": "Spades",
+    "value": "Jack",
+    "bjval": 10
+  },
+  {
+    "suit": "Spades",
+    "value": "Queen",
+    "bjval": 10
+  },
+  {
+    "suit": "Spades",
+    "value": "King",
+    "bjval": 10
+  },
+  {
+    "suit": "Spades",
+    "value": "Ace",
+    "bjval": 11
+  }
+]

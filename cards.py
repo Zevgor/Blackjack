@@ -44,6 +44,7 @@ print ('Your value is',playervalue)
 
 if dealervalue == 21:
     print ('Dealer Blackjack - You Lose!')
+    quit()
 
 if playervalue == 21:
     print ('BLACKJACK!!!!!')

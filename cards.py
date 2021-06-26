@@ -43,7 +43,7 @@ playervalue = funcs.calcvalue(playercards)
 print ('Your value is',playervalue)
 
 if dealervalue == 21:
-    print ('Dealer Blackjcalcuack - You Lose!')
+    print ('Dealer Blackjack - You Lose!')
 
 if playervalue == 21:
     print ('BLACKJACK!!!!!')
@@ -55,7 +55,6 @@ while (playervalue < 21) and (userinput != 's'):
     if userinput == 'h':
         playercards.append(funcs.drawanother(fulldeck))
         print ('Player next card is the', playercards[-1]["value"], 'of', playercards[-1]["suit"])
-        playervalue = funcs.calcvalue(playercards)
         playervalue = funcs.calcvalue(playercards)
         print ('Your value is',playervalue)
 

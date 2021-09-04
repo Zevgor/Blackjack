@@ -4,6 +4,7 @@ import random
 
 jsondeck = "deck.json"
 deckcount = 4
+playercount = 2
 
 #read standard deck
 standarddeck = funcs.read_file(jsondeck)
@@ -16,38 +17,54 @@ while count < deckcount:
     for k in standarddeck:
         fulldeck.append(k)
 
+#initialize player list
+players = []
+count=0
+while count < playercount:
+    player = {}
+    player["playerID"]=count+1
+    players.append(player)
+    count=count+1
+
 #confirm # of cards loaded to fulldeck
 #funcs.cardsleft(fulldeck)
 
-#deal starting cards, 1 to player, 1 to dealer, 1 to player, 1 to dealer (facedown)
+#deal starting cards, 1 to each player, 1 to dealer, 1 more to each player, 1 to dealer (facedown)
 dealercards = []
-playercards = []
 
-playercards.append(funcs.drawanother(fulldeck))
-print ('Your first card is the', playercards[-1]["value"], 'of', playercards[-1]["suit"])
+for player in players:
+    player["playercards"] = []
+    player["playercards"].append(funcs.drawanother(fulldeck))
+    print ('Player', player["playerID"], 'first card is the', player["playercards"][-1]["value"], 'of', player["playercards"][-1]["suit"])
 
 dealercards.append(funcs.drawanother(fulldeck))
 print ('Dealer first card is the', dealercards[-1]["value"], 'of', dealercards[-1]["suit"])
 
-playercards.append(funcs.drawanother(fulldeck))
-print ('Your second card is the', playercards[-1]["value"], 'of', playercards[-1]["suit"])
+for player in players:
+    player["playercards"].append(funcs.drawanother(fulldeck))
+    print ('Player', player["playerID"], 'second card is the', player["playercards"][-1]["value"], 'of', player["playercards"][-1]["suit"])
 
-card = funcs.drawanother(fulldeck)
-dealercards.append(card)
+
+dealercards.append(funcs.drawanother(fulldeck))
 print ('Dealer second card is facedown')
+
+#TODO - Insurance if Ace Showing
 
 #calculate dealers and players value
 dealervalue = funcs.calcvalue(dealercards)
 print ('Dealer showing a',dealercards[0]["bjval"])
-playervalue = funcs.calcvalue(playercards)
-print ('Your value is',playervalue)
+
+for player in players:
+    player["playervalue"] = funcs.calcvalue(player["playercards"])
+    print ('Player',player["playerID"],'value is',player["playervalue"])
+    if player["playervalue"] == 21:
+        print ('Player',player["playerID"],'BLACKJACK!')
 
 if dealervalue == 21:
-    print ('Dealer Blackjack - You Lose!')
+    print ('Dealer Blackjack!')
     quit()
 
-if playervalue == 21:
-    print ('BLACKJACK!!!!!')
+quit()
 
 #player hit or stand
 userinput = ''
